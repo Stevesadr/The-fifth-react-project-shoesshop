@@ -1,0 +1,39 @@
+.a1{
+    width: 90%;
+    height: auto;
+    display: flex;
+    padding: 10px;
+    border-radius:10px ;
+}
+.see_img{
+    width: 40%;
+    height: 0 auto;
+    border-radius: 5px;
+}
+.a2{
+    display: flex;
+    align-items: center;
+    justify-content:start;
+    text-align: center;
+}
+.a1:hover{
+    animation: anime 1s reverse;
+}
+@keyframes anime{
+    0%{
+        background-color: #efefef;
+        box-shadow: 0px 0px 2px #f5f4f4;
+    }
+    25%{
+        background-color: #dcdcdc;
+        box-shadow: 0px 0px 3px #f5f4f4;
+    }
+    50%{
+        background-color: #d3d3d3;
+        box-shadow: 0px 0px 4px #f5f4f4;
+    }
+    100%{
+        background-color: #d5d5d5;
+        box-shadow: 0px 0px 5px #f5f4f4;
+    }
+}

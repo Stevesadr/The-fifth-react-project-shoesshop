@@ -1,0 +1,8 @@
+@font-face{
+  font-family: Nunito;
+  src: url(./assets/Nunito/Nunito-VariableFont_wght.ttf);
+}
+:root{
+  font-family: Numtio;
+
+}

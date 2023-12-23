@@ -1,0 +1,31 @@
+@font-face {
+  font-family: Nunito;
+  src: url(./assets/Nunito/Nunito-VariableFont_wght.ttf);
+}
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: Nunito;
+  width: 0 auto;
+  height: 0 auto;
+}
+.main{
+  width:0 auto;
+  background-color: #e2e2e2;
+  display: flex;
+}
+.button-div{
+  max-width: 30%;
+  height: 0 auto;
+  background-color:#f6f6f6;
+  padding: 50px;
+
+}
+.basic-div{
+  position: fixed;
+  top: 0px;
+  left: 30%;
+  height: 100%;
+  width: 70%;
+}
